@@ -3,11 +3,11 @@
   <title>Tools</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://happychl.github.io/tools/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2024-01-02T07:13:13.566Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://happychl.github.io/tools/"/>
+  <updated>2024-01-02T07:25:54.931Z</updated>
+  <id>https://happychl.github.io/tools/</id>
   
   <author>
     <name>迷途小书童</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>rotate</title>
-    <link href="http://example.com/2024/01/02/rotate/"/>
-    <id>http://example.com/2024/01/02/rotate/</id>
+    <link href="https://happychl.github.io/tools/2024/01/02/rotate/"/>
+    <id>https://happychl.github.io/tools/2024/01/02/rotate/</id>
     <published>2024-01-02T06:46:58.000Z</published>
-    <updated>2024-01-02T07:13:13.566Z</updated>
+    <updated>2024-01-02T07:25:54.931Z</updated>
     
     <content type="html"><![CDATA[<!DOCTYPE html><html lang="en">  <head>    <meta charset="UTF-8" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <title>Document</title>    <style>      #box {        display: flex;        align-items: center;        justify-content: center;        font-size: 24px;        font-weight: bold;        width: 50px;        height: 50px;        border: 1px solid teal;        animation: rotate 3s linear infinite;      }      @keyframes rotate {        from {          transform: rotate(0deg);        }        to {          transform: rotate(360deg);        }      }    </style>  </head>  <body>    <div id="box">0</div>    <script type="text/javascript">      const boxEl = document.getElementById("box");      setInterval(() => {        boxEl.innerText = +boxEl.innerText + 1;      }, 3000);    </script>  </body></html>]]></content>
     
