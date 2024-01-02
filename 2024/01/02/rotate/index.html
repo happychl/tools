@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> rotate · Tools</title><meta name="description" content="rotate - 迷途小书童"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/prontera.css"><link rel="search" type="application/opensearchdescription+xml" href="http://example.com/atom.xml" title="Tools"><meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="Tools" type="application/atom+xml">
+</head><body><header class="feature-header"><nav class="component-nav"><ul><div class="logo-container"><a href="/"><h2 class="title">Tools</h2></a></div><a href="/" target="_self" class="li component-nav-item"><p>INDEX</p></a><a href="/archives" target="_self" class="li component-nav-item"><p>ARCHIVES</p></a></ul></nav></header><main class="container"><div id="post-container"><div class="post"><article class="post-block"><h1 class="post-title">rotate</h1><div class="post-info">2024年1月2日</div><div class="post-content">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        border: 1px solid teal;
+        animation: rotate 3s linear infinite;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">0</div>
+
+    <script type="text/javascript">
+      const boxEl = document.getElementById("box");
+
+      setInterval(() => {
+        boxEl.innerText = +boxEl.innerText + 1;
+      }, 3000);
+    </script>
+  </body>
+</html>
+</div></article></div></div></main><footer class="footer-container"><div class="paginator"></div><div class="copyright"><p>© 2017 - 2024 <a href="http://example.com">迷途小书童</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/AngryPowman/hexo-theme-prontera" target="_blank">hexo-theme-prontera</a>.</p></div></footer></body></html>

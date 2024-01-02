@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tools</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-01-02T07:13:13.566Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>迷途小书童</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>rotate</title>
+    <link href="http://example.com/2024/01/02/rotate/"/>
+    <id>http://example.com/2024/01/02/rotate/</id>
+    <published>2024-01-02T06:46:58.000Z</published>
+    <updated>2024-01-02T07:13:13.566Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en">  <head>    <meta charset="UTF-8" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <title>Document</title>    <style>      #box {        display: flex;        align-items: center;        justify-content: center;        font-size: 24px;        font-weight: bold;        width: 50px;        height: 50px;        border: 1px solid teal;        animation: rotate 3s linear infinite;      }      @keyframes rotate {        from {          transform: rotate(0deg);        }        to {          transform: rotate(360deg);        }      }    </style>  </head>  <body>    <div id="box">0</div>    <script type="text/javascript">      const boxEl = document.getElementById("box");      setInterval(() => {        boxEl.innerText = +boxEl.innerText + 1;      }, 3000);    </script>  </body></html>]]></content>
+    
+    
+      
+      
+    <summary type="html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
